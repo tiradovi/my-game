@@ -12,7 +12,7 @@ export const GameAPI = {
             }
             return await res.json();
         } catch (error) {
-            console.error('점수 불러오기 에러:', error);
+            console.error('점수 불러오기  에러:', error);
             return [];
         }
     },
